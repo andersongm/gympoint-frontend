@@ -10,7 +10,7 @@ export default function RouteWrapper({
   isPrivate,
   ...rest
 }) {
-  const signed = true;
+  const signed = false;
 
   const Layout = signed ? DefaultLayout : AuthLayout;
 
